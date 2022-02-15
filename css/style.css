@@ -29,6 +29,7 @@ body {
   padding: 13px 20px;
 }
 .search-button {
+  display: block;
   background-color: transparent;
   border: none;
   position: absolute;
@@ -74,4 +75,259 @@ body {
   display: block;
   padding: 5px;
   border-radius: 50%;
+}
+.slide {
+  border-radius: 20px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+.slide-content {
+  max-width: 400px;
+}
+.slide-text-light {
+  background-color: grey;
+  color: #ffffff;
+}
+.slide-title {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 51px;
+}
+.slide-text {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+}
+.button {
+  border-radius: 25px;
+  padding: 12px 50px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: medium;
+  font-size: 14px;
+  line-height: 23px;
+}
+.button-primary {
+  background-color: #f47322;
+  color: #fff;
+}
+.button-default {
+  background-color: #fff;
+  color: #5f5f61;
+}
+.slide-autumn {
+  background-image: url(../img/autumn.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.promo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: -20px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 50%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px;
+  padding: 32px;
+  max-width: 570px;
+  min-height: 380px;
+}
+.card-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+.card-text-light {
+  color: #fff;
+}
+.card-title {
+  font-weight: medium;
+  font-size: 24px;
+  line-height: 23px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+.card-text {
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 23px;
+  max-width: 200px;
+}
+.card-price {
+  display: block;
+  font-weight: medium;
+  font-size: 24px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+.card-delivery {
+  display: block;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 25px;
+}
+.delivery-week {
+  padding: 100px 0;
+}
+.section-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 23px;
+  margin-top: 0px;
+  margin-bottom: 47px;
+}
+.delivery-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.delivery-card {
+  position: relative;
+  width: 275px;
+  height: 182px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin: 15px;
+}
+.delivery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.delivery-tag {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+.tag-health {
+  background-color: #d0fd89;
+  color: #49494f;
+}
+.tag-vegetable {
+  background-color: #aebc41;
+  color: #fff;
+}
+.tag-meat {
+  background-color: #b86b78;
+  color: #fff;
+}
+.tag-poultry {
+  background-color: #d68334;
+  color: #fff;
+}
+.tag-fish {
+  background-color: #cd6255;
+  color: #fff;
+}
+.tag-baby {
+  background-color: #fffdbf;
+  color: #49494f;
+}
+.tag-parents {
+  background-color: #f6fdc8;
+  color: #49494f;
+}
+.tag-festive {
+  background-color: #fef7fe;
+  color: #49494f;
+}
+.section-grey {
+  background-color: #f6f6f6;
+}
+.category {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.tabs {
+  display: flex;
+  margin: 0;
+  margin-bottom: 62px;
+  padding: 0;
+  list-style-type: none;
+}
+.tabs-link {
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #49494f;
+  margin-right: 58px;
+}
+.tabs-card {
+  max-width: 270px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.tabs-image {
+  max-width: 100%;
+}
+.tabs-card-content {
+  padding: 23px;
+}
+.tabs-title {
+  margin-top: 0px;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+.tabs-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #b9b9be;
+}
+.tabs-price {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 23px;
+  color: #4b4b51;
+  display: block;
+  margin-bottom: 5px;
+}
+.tabs-weight {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #aaaab1;
+}
+.tabs-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button-outline {
+  padding: 15px 25px;
+  color: #f37321;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: transparent;
+  border: 2px solid #f37321;
+  box-sizing: border-box;
+  border-radius: 33px;
 }
